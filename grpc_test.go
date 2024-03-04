@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/infrastructure/config"
+	"github.com/Hoosat-Oy/htnd/domain/consensus/model/externalapi"
+	"github.com/Hoosat-Oy/htnd/infrastructure/config"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/infrastructure/network/dnsseed/pb"
+	"github.com/Hoosat-Oy/htnd/app/appmessage"
+	"github.com/Hoosat-Oy/htnd/infrastructure/network/dnsseed/pb"
 	"google.golang.org/grpc"
 )
 

@@ -14,19 +14,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/standalone"
+	"github.com/Hoosat-Oy/htnd/app/protocol/common"
+	"github.com/Hoosat-Oy/htnd/infrastructure/config"
+	"github.com/Hoosat-Oy/htnd/infrastructure/network/netadapter/standalone"
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/dnsseeder/version"
-	"github.com/kaspanet/kaspad/infrastructure/network/dnsseed"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/Hoosat-Oy/dnsseeder/version"
+	"github.com/Hoosat-Oy/htnd/infrastructure/network/dnsseed"
+	"github.com/Hoosat-Oy/htnd/util/panics"
+	"github.com/Hoosat-Oy/htnd/util/profiling"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
+	"github.com/Hoosat-Oy/htnd/app/appmessage"
+	"github.com/Hoosat-Oy/htnd/infrastructure/os/signal"
 
 	_ "net/http/pprof"
 )
@@ -205,7 +205,7 @@ func main() {
 
 		// Try to split seeder host and port
 		foundIp, foundPort, err := net.SplitHostPort(cfg.Seeder)
-		if (err == nil) {
+		if err == nil {
 			seederIp = foundIp
 			seederPort, err = strconv.Atoi(foundPort)
 			if err != nil {

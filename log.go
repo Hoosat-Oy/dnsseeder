@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/Hoosat-Oy/htnd/infrastructure/logger"
+	"github.com/Hoosat-Oy/htnd/util/panics"
 )
 
 var (

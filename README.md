@@ -4,7 +4,7 @@ This project is currently under active development and is in Beta state.
 ====
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/kaspanet/dnsseeder)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/Hoosat-Oy/dnsseeder)
 
 DNSSeeder exposes a list of known peers to any new peer joining the Kaspa network via the DNS protocol.
 
@@ -51,8 +51,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 - Run the following commands to obtain dnsseeder, all dependencies, and install it:
 
 ```bash
-$ git clone https://github.com/kaspanet/dnsseeder $GOPATH/src/github.com/kaspanet/dnsseeder
-$ cd $GOPATH/src/github.com/kaspanet/dnsseeder
+$ git clone https://github.com/Hoosat-Oy/dnsseeder $GOPATH/src/github.com/Hoosat-Oy/dnsseeder
+$ cd $GOPATH/src/github.com/Hoosat-Oy/dnsseeder
 $ go install . 
 ```
 

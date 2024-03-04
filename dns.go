@@ -6,17 +6,18 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/app/appmessage"
 	"net"
 	"os"
 	"strings"
 	"sync/atomic"
 	"time"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/subnetworks"
+	"github.com/Hoosat-Oy/htnd/app/appmessage"
 
-	"github.com/kaspanet/kaspad/infrastructure/network/dnsseed"
+	"github.com/Hoosat-Oy/htnd/domain/consensus/model/externalapi"
+	"github.com/Hoosat-Oy/htnd/domain/consensus/utils/subnetworks"
+
+	"github.com/Hoosat-Oy/htnd/infrastructure/network/dnsseed"
 	"github.com/pkg/errors"
 
 	"github.com/miekg/dns"
