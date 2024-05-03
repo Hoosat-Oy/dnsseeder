@@ -3,7 +3,7 @@ module github.com/Hoosat-Oy/dnsseeder
 go 1.18
 
 require (
-	github.com/Hoosat-Oy/htnd v0.0.0-20240304161635-f62256bba7bc
+	github.com/Hoosat-Oy/HTND v0.0.0-20240304161635-f62256bba7bc
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/miekg/dns v1.1.59
 	github.com/pkg/errors v0.9.1

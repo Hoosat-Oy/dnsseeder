@@ -12,12 +12,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Hoosat-Oy/htnd/app/appmessage"
+	"github.com/Hoosat-Oy/HTND/app/appmessage"
 
-	"github.com/Hoosat-Oy/htnd/domain/consensus/model/externalapi"
-	"github.com/Hoosat-Oy/htnd/domain/consensus/utils/subnetworks"
+	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
+	"github.com/Hoosat-Oy/HTND/domain/consensus/utils/subnetworks"
 
-	"github.com/Hoosat-Oy/htnd/infrastructure/network/dnsseed"
+	"github.com/Hoosat-Oy/HTND/infrastructure/network/dnsseed"
 	"github.com/pkg/errors"
 
 	"github.com/miekg/dns"

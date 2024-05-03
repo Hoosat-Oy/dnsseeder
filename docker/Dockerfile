@@ -12,12 +12,12 @@ COPY go.sum .
 
 # For development it's useful to have kaspad from filesystem, but for deployment
 # we should use the one in github
-RUN go mod edit -dropreplace github.com/Hoosat-Oy/htnd
+RUN go mod edit -dropreplace github.com/Hoosat-Oy/HTND
 ARG KASPAD_VERSION
-ARG KASPAD_REPOSITORY='github.com/Hoosat-Oy/htnd'
+ARG KASPAD_REPOSITORY='github.com/Hoosat-Oy/HTND'
 RUN if [ -n "${KASPAD_VERSION}" ]; then \
         # use replace instead of require - to propagate into nested dependancies \
-        go mod edit -replace "github.com/Hoosat-Oy/htnd=$KASPAD_REPOSITORY@$KASPAD_VERSION"; \
+        go mod edit -replace "github.com/Hoosat-Oy/HTND=$KASPAD_REPOSITORY@$KASPAD_VERSION"; \
     fi
 
 RUN go mod download

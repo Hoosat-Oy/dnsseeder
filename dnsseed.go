@@ -14,19 +14,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Hoosat-Oy/htnd/app/protocol/common"
-	"github.com/Hoosat-Oy/htnd/infrastructure/config"
-	"github.com/Hoosat-Oy/htnd/infrastructure/network/netadapter/standalone"
+	"github.com/Hoosat-Oy/HTND/app/protocol/common"
+	"github.com/Hoosat-Oy/HTND/infrastructure/config"
+	"github.com/Hoosat-Oy/HTND/infrastructure/network/netadapter/standalone"
 
 	"github.com/pkg/errors"
 
+	"github.com/Hoosat-Oy/HTND/infrastructure/network/dnsseed"
+	"github.com/Hoosat-Oy/HTND/util/panics"
+	"github.com/Hoosat-Oy/HTND/util/profiling"
 	"github.com/Hoosat-Oy/dnsseeder/version"
-	"github.com/Hoosat-Oy/htnd/infrastructure/network/dnsseed"
-	"github.com/Hoosat-Oy/htnd/util/panics"
-	"github.com/Hoosat-Oy/htnd/util/profiling"
 
-	"github.com/Hoosat-Oy/htnd/app/appmessage"
-	"github.com/Hoosat-Oy/htnd/infrastructure/os/signal"
+	"github.com/Hoosat-Oy/HTND/app/appmessage"
+	"github.com/Hoosat-Oy/HTND/infrastructure/os/signal"
 
 	_ "net/http/pprof"
 )

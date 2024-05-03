@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hoosat-Oy/htnd/infrastructure/network/addressmanager"
+	"github.com/Hoosat-Oy/HTND/infrastructure/network/addressmanager"
 
-	"github.com/Hoosat-Oy/htnd/app/appmessage"
-	"github.com/Hoosat-Oy/htnd/domain/consensus/model/externalapi"
+	"github.com/Hoosat-Oy/HTND/app/appmessage"
+	"github.com/Hoosat-Oy/HTND/domain/consensus/model/externalapi"
 	"github.com/miekg/dns"
 	"github.com/pkg/errors"
 )

@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Hoosat-Oy/htnd/infrastructure/config"
+	"github.com/Hoosat-Oy/HTND/infrastructure/config"
 
 	"github.com/Hoosat-Oy/dnsseeder/version"
 	"github.com/pkg/errors"
 
-	"github.com/Hoosat-Oy/htnd/util"
+	"github.com/Hoosat-Oy/HTND/util"
 	"github.com/jessevdk/go-flags"
 )
 
