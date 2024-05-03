@@ -1,5 +1,8 @@
 github.com/Hoosat-Oy/HTND v0.0.0-20240304161635-f62256bba7bc h1:SkzNwxPB48Vez/MWQSD7DjZLlJ7WmkDSk/+oZQfvrS8=
 github.com/Hoosat-Oy/HTND v0.0.0-20240304161635-f62256bba7bc/go.mod h1:mjU4FHUvpFQo6shlDKve3JRZD1inHdQyylOfDulR3U0=
+github.com/Hoosat-Oy/HTND v0.0.0-20240503131852-ae5767fe9705 h1:DBIfynhxy0uyEos9E0uXZyS6cXeDicrWlvc+lT1JZgE=
+github.com/Hoosat-Oy/HTND v0.0.0-20240503131852-ae5767fe9705/go.mod h1:eZdo62pYETv3Qxhk9K1uqe9/ERKZQP3DH8o5Q9j6J+g=
+github.com/Hoosat-Oy/htnd v0.0.0-20240304161635-f62256bba7bc/go.mod h1:mjU4FHUvpFQo6shlDKve3JRZD1inHdQyylOfDulR3U0=
 github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd h1:R/opQEbFEy9JGkIguV40SvRY1uliPX8ifOvi6ICsFCw=
 github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd/go.mod h1:HHNXQzUsZCxOoE+CPiyCTO6x34Zs86zZUiwtpXoGdtg=
 github.com/btcsuite/winsvc v1.0.0 h1:J9B4L7e3oqhXOcm+2IuNApwzQec85lE+QaikUcCs+dk=
