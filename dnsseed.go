@@ -138,6 +138,9 @@ func creep() {
 
 func pollPeer(netAdapter *standalone.MinimalNetAdapter, addr *appmessage.NetAddress) error {
 	defer amgr.Attempt(addr.IP)
+	if addr.Port != uint16(peersDefaultPort) {
+		return nil
+	}
 
 	peerAddress := net.JoinHostPort(addr.IP.String(), strconv.Itoa(int(addr.Port)))
 	routes, err := netAdapter.Connect(peerAddress)
