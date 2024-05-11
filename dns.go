@@ -113,9 +113,7 @@ func (d *DNSServer) extractSubnetworkID(addr *net.UDPAddr, domainName string) (*
 	includeAllSubnetworks := true
 	if d.hostname != domainName {
 		labels := dns.SplitDomainName(domainName)
-		log.Infof("%v", labels)
 		if labels[0][0] == dnsseed.SubnetworkIDPrefixChar {
-			log.Infof("%v", dnsseed.SubnetworkIDPrefixChar)
 			includeAllSubnetworks = false
 			if len(labels[0]) > 1 {
 				subnetworkID, err := subnetworks.FromString(labels[0][1:])
